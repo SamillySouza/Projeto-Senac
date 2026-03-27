@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <header>
+    <h1>OdontoBeauty</h1>
+</header>
+<nav>
+    <ul> 
+        <li> <a href="galeria.html">Galeria</a></li>
+        <li> <a href="index.html">Início</a></li>
+        <li> <a href="cadastro.html">Cadastro</a></li>
+    </ul>
+    </nav>
+    <main>  
+        <h2>Tela de cadastro</h2>
+        <form>
+        <fieldset>
+           <legend>Consulta com a Loira</legend>
+          <required> <label>Nome </label> 
+           <br>
+           <input placeholder="Samily" > </input>
+           <br>
+              <label>Telefone </label>
+               <br>
+              <required> <input placeholder="(11) 99999-9999">
+                <br>
+                <label>Data da consulta que deseja agendar </label>
+                <br>
+                <input type="date"> <minlength="10" maxlength="10"> 
+                <br>
+                <label>Endereço </label>
+                <br>
+                <input placeholder="Rua da Samilly Bonita"> </required>
+                <br>
+             <label> CPF </label>
+                <br>
+                <input placeholder="xxx.xxx.xxx-xx."> 
+                <br>
+ <label>Email </label>
+                <br>
+                <input placeholder="loiras@gmail.com">  </input>
+                <br>
+                <label for="Gênero">Gênero</label>
+                <br>
+                <Label>Masculino</Label>
+                <input type="radio" name="Gênero" value="Masculino"> </input> 
+                <Label>Feminino</Label>
+                <input type="radio" name="Gênero" value="Feminino"> </input>
+                <Label>Outro</Label>
+                <input type="radio" name="Gênero" value="Outro"> </input>
+                <br>
+                <label for="Logradouro">Logradouro</label>
+                <br>
+                <input placeholder="Ex: Rua, Av. etc."> </input> 
+                <br>
+                <h3>Check List</h3> 
+             <input type="checkbox" id="op" name="wd" value="op1">
+                <label for="op">Limpeza </label>
+                <br>
+                 <input type="checkbox" id="op" name="wd" value="op1">
+                <label for="op">Curativo (Canal, Restaura,extração) </label>
+                <br>
+                <input type="checkbox" id="op" name="wd" value="op1">
+                <label for="op">Estéticos (Lente, Clareamento) </label> 
+                <br> 
+                <input type="checkbox" id="op" name="wd" value="op1">
+                <label for="op">Raio-x </label> </required>
+                <br>
+         <h3> <label for="Comentarios">Comentarios adicionais:</label></h3>
+                <textarea placeholder="Digite aqui..."></textarea> 
+                <br>
+                <input type="file" accept="image/*">    
+                <input type="hidden" name="token" value="abc123">   
+                <br>
+                <action="cadastraCliente.php" method="post">
+                <input type="submit" value="Enviar">
+          
+          
+          
+          
+          
+          
+            </fieldset>
+                
+ </form>
+        </main>
+    <footer>
+        <address>
+            <p> Rua da Samilly Bonita</p>
+        </address>
+    </footer>
+    
+</body>
+</html>

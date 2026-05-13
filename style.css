@@ -1,0 +1,45 @@
+.topo {
+    background-color: #a28089 ;
+    color: #ffa8B6;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+}
+
+.topo-bacana a {
+  padding-top: 3%;
+  vertical-align:-50px;
+  text-decoration: none;
+  margin: auto;
+  
+}
+
+nav{
+    margin-left: auto;
+    padding-right: 2%;
+   
+}
+
+.baixo {
+    margin-top: 5%;
+}
+
+header {
+   margin-left: 2%
+}
+
+.baixo {
+    background-color: #51e2f5;
+    justify-self: center;
+    text-align: center;
+    width: 15%;
+    border-radius: 10px;
+    height: auto;
+    padding-top: 2%;
+}
+
+body {
+    background-color: #51e2f552;
+}

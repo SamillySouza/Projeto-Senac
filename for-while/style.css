@@ -1,0 +1,83 @@
+body {
+    background-color:hwb(271 17% 11%);
+    color: rgba(240, 255, 255, 0.884);
+}
+
+.topo {
+    display: flex;
+    gap: 990px;
+     background-color:darkviolet;
+     width: 100%;
+    
+}
+
+.quadrado0 {
+    display: flex;
+    margin-left: 1%;
+}
+
+.quadrado1 a {
+   text-decoration: none;
+   margin: 2px;
+   color: plum;
+   
+}
+
+.quadrado1 {
+    margin-top: 4%;
+    
+}
+
+footer {
+background-color:darkviolet;
+margin-top: 10%;
+}
+
+.img {
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+    
+    }
+
+.img img {
+   margin-top: -9%;
+   margin-left: 70%;
+   width: 90px;
+   height: 90px;
+}
+
+.fonte {
+    font-size: 400%;
+    margin-left: 3%;
+    justify-self:center ;
+}
+
+.fonte1{
+    margin-left: 3%;
+    justify-self:center ;
+    text-align: center;
+}
+
+.meio {
+    text-align: center;
+    justify-self: center;
+    background-color:darkviolet;;
+    padding: 5%;
+    border-radius: 14px;
+    margin-top: 10%;
+    box-shadow:rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.bot {
+    background-color: rgba(83, 10, 114, 0.493);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+  .quadro {
+    background-color: aliceblue;
+  }
+  .nota{
+    background-color: aliceblue;
+  }

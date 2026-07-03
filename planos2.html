@@ -1,0 +1,127 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="coisa.css">
+</head>
+
+<body>
+    <div class="topinho">
+    <header>
+        <div class="imagemlogo">
+            <img src="imagens\logo.png" alt="" width="130px">
+        </div>
+        <div class="nomepag">
+            <h1>Alive Mind</h1>
+        </div>
+    </header>
+
+        <div class="navegando">
+            <nav>
+                <a href="login2.html">Login</a>
+                <a href="index2.html">Home</a>
+                <a href="sobre2.html">About</a>
+                <a href="planos2.html">Plans</a>
+                <a href="galeria2.html">Gallery</a>
+                
+            </nav>
+            <button class="tradutor" onclick="traduzirPagina8()">Português</button>
+        </div>
+    </div>
+    
+    <main>
+        <h1 class="planos">Plans</h1>
+
+        <div class="divzao">
+
+            <div class="card">
+                <h2>Basic Plan</h2>
+                <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ(monthly)</p>
+                <img src="imagens/japinha.webp" alt="">
+                <p>1 session/week (50 min) <br>
+                    Session via Google Meet <br>
+                    Basic content</p>
+
+                <button onclick="preco3()" id="btn" class="precos"><b>$9,60</b></button>
+
+                <div id="caixa" class="caixa-texto1" style="display: none;">
+                   The Basic Plan was designed for patients starting psychological care who are seeking ongoing support at a more affordable price point. It includes one 50-minute weekly session, totaling approximately four sessions per month. Additionally, patients receive email support for specific questions and access to basic content focused on emotional development and self-awareness. The monthly cost of the plan is $9.60, <br> <br>working out to $2,40 per session.
+                </div>
+            </div>
+
+            <div class="card-gold">
+                <h1>Gold Plan</h1>
+                <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ(monthly)</p>
+                <img src="imagens/muie feliz.jpg" alt="">
+                <p><b>3 sessions/week (150 min) <br>
+                        Top priority <br>
+                        Direct and fast support<br>
+                        Personalized plan + reports</b></p>
+
+                <button onclick="preco1()" id="btn1" class="precos1"><b>$26,90</b></button>
+
+                <div id="caixa1" class="caixa-texto2" style="display: none;">
+                    The Gold Plan is designed for patients requiring more frequent and personalized care. This plan includes three 50-minute weekly sessions, totaling approximately 150 minutes of care per week. Patients receive top priority, direct and rapid support for guidance, and a personalized treatment plan with progress reports. The monthly investment is $26,90  . <br>
+                    <br> This works out to $2,20 per session.
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Premium Plan</h2>
+                <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ(monthly)</p>
+                <img src="imagens/Atendimento-psicologico-a-distancia.jpg" alt="">
+                <p>2 sessions/week (100 min) <br>
+                    Priority scheduling<br>
+                    WhatsApp support<br>
+                    Exclusive content + <br>
+                    Monthly assessment</p>
+
+                <button onclick="preco2()" id="btn2" class="precos"><b>$19,60</b></button>
+
+                <div id="caixa2" class="caixa-texto3" style="display: none;">
+                    The Premium Plan is designed for patients seeking more comprehensive and intensive care. The
+                    plan includes two 50-minute sessions per week, totaling approximately 100 minutes weekly.
+                    In addition to scheduling priority, the patient receives WhatsApp support, access to exclusive
+                    content, and a detailed monthly assessment of therapeutic progress. The monthly cost of this plan is
+                    $19.60. <br><br>
+                    Totaling $2.40.
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    
+    <footer>
+        <p>
+            WARNING: This site does not offer immediate treatment or counseling for people in suicidal crisis. In case of crisis, call 988 (CVV) or
+        </p>
+        <p>
+            visit the website <a href="https://988lifeline.org/" target="_blank">www.cvv.org.br</a>.
+            In case of an emergency, seek care at the nearest hospital.
+        </p>
+    
+        <div class="iconezinhos">
+            <a href="https://share.google/vSVV4ztGRD04Nd2Mk" target="_blank">
+                <img src="imagens/mapssss.png" width="50px" alt="Mapa">
+            </a>
+            <a href="https://www.instagram.com/senacminas/" target="_blank">
+                <img src="imagens/instaa2.png" width="50px" alt="Instagram">
+            </a>
+            <a href="https://wa.me/553433041400" target="_blank">
+                <img src="imagens/ZAPINHO.png" width="50px" alt="WhatsApp">
+            </a>
+            <a href="https://www.tiktok.com/@senacminas" target="_blank" title="TikTok Senac">
+                <img src="imagens/tiktokk.webp" width="50px" alt="TikTok">
+            </a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

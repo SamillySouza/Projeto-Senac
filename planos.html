@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="coisa.css">
+</head>
+
+<body>
+    <div class="topinho">
+    <header>
+        <div class="imagemlogo">
+            <img src="imagens\logo.png" alt="" width="130px">
+        </div>
+        <div class="nomepag">
+            <h1>Mente Viva</h1>
+        </div>
+    </header>
+
+        <div class="navegando">
+            <nav>
+                <a href="login.html">Login</a>
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="planos.html">Planos</a>
+                <a href="galeria.html">Galeria</a>
+                
+            </nav>
+            <button class="tradutor" onclick="traduzirPagina7()">English</button>
+        </div>
+    </div>
+
+    <main>
+        <h1 class="planos">Planos</h1>
+
+        <div class="divzao">
+
+            <div class="card">
+                <h2>Plano Basic</h2>
+                <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ(mensal)</p>
+                <img src="imagens/japinha.webp" alt="">
+                <p>1 sessão/semana(50 min) <br>
+                    sessão por google meet<br>
+                    Conteúdos básicos</p>
+
+                <button onclick="preco3()" id="btn" class="precos"><b>R$ 99,99</b></button>
+
+                <div id="caixa" class="caixa-texto1" style="display: none;">
+                    O Plano Basic foi desenvolvido para pacientes que estão iniciando o acompanhamento psicológico e
+                    buscam um suporte contínuo com um investimento mais acessível. Ele oferece 1 sessão semanal de 50
+                    minutos, totalizando aproximadamente 4 sessões por mês. Além disso, o paciente conta com suporte por
+                    e-mail para dúvidas pontuais e acesso a conteúdos básicos voltados para o desenvolvimento emocional
+                    e autoconhecimento. O valor mensal do plano é de R$ 99,99. <br> <br>Totalizando 24,99 reais cada sessão.
+                </div>
+            </div>
+
+            <div class="card-gold">
+                <h1>Plano Gold </h1>
+                <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ(mensal)</p>
+                <img src="imagens/muie feliz.jpg" alt="">
+                <p><b>3 sessões/semana(150 min) <br>
+                        Prioridade máxima <br>
+                        Suporte direto e rápido<br>
+                        Plano personalizado + relatórios</b></p>
+
+                <button onclick="preco1()" id="btn1" class="precos1"><b>R$ 229,99</b></button>
+
+                <div id="caixa1" class="caixa-texto2" style="display: none;">
+                    O Plano Gold é indicado para pacientes que necessitam de um acompanhamento mais frequente e
+                    personalizado. Neste plano, são oferecidas 3 sessões semanais de 50 minutos, totalizando cerca de
+                    150 minutos de atendimento por semana. O paciente recebe prioridade máxima no atendimento, suporte
+                    direto e mais rápido para orientações, além de um plano terapêutico personalizado com relatórios de
+                    acompanhamento. O investimento mensal é de R$ 229,99. <br>
+                    <br> Totalizando 28,75 por sessão.
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Plano Premium</h2>
+                <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ(mensal)</p>
+                <img src="imagens/Atendimento-psicologico-a-distancia.jpg" alt="">
+                <p>2 sessões/semana(100 min) <br>
+                    Prioridade na agenda<br>
+                    Suporte via WhatsApp<br>
+                    Conteúdos exclusivos + <br>
+                    Avaliação mensal</p>
+
+                <button onclick="preco2()" id="btn2" class="precos"><b>R$ 215,99</b></button>
+
+                <div id="caixa2" class="caixa-texto3" style="display: none;">
+                    O Plano Premium foi pensado para pacientes que buscam um acompanhamento mais completo e intensivo. O
+                    plano inclui 2 sessões semanais de 50 minutos, totalizando aproximadamente 100 minutos por semana.
+                    Além da prioridade na agenda, o paciente conta com suporte via WhatsApp, acesso a conteúdos
+                    exclusivos e uma avaliação mensal detalhada da evolução terapêutica. O valor mensal deste plano é de
+                    R$ 215,99. <br><br>
+                    Totalizando R$22,49
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            ATENÇÃO: Este site não oferece tratamento ou aconselhamento imediato para pessoas em crise suicida. Em
+            caso de crise, ligue para 188 (CVV) ou
+        </p>
+        <p>
+            acesse o site <a href="https://cvv.org.br/" target="_blank">www.cvv.org.br</a>.
+            Em caso de emergência, procure atendimento em um hospital mais próximo.
+        </p>
+
+        <div class="iconezinhos">
+            <a href="https://share.google/vSVV4ztGRD04Nd2Mk" target="_blank">
+                <img src="imagens/mapssss.png" width="50px" alt="Mapa">
+            </a>
+            <a href="https://www.instagram.com/senacminas/" target="_blank">
+                <img src="imagens/instaa2.png" width="50px" alt="Instagram">
+            </a>
+            <a href="https://wa.me/553433041400" target="_blank">
+                <img src="imagens/ZAPINHO.png" width="50px" alt="WhatsApp">
+            </a>
+            <a href="https://www.tiktok.com/@senacminas" target="_blank" title="TikTok Senac">
+                <img src="imagens/tiktokk.webp" width="50px" alt="TikTok">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

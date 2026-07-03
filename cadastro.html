@@ -29,28 +29,41 @@
                 <a href="galeria.html">Galeria</a>
                 
             </nav>
-            <button class="tradutor" onclick="traduzirPagina3()">English</button>
+            <button class="tradutor" onclick="traduzirPagina11()">English</button>
         </div>
     </div>
 
     <main>
-        
-        <div class="index">
-            <div class="texto1">
-                <p>
-                    Mente Viva, um espaço seguro e acolhedor para consultas psicológicas, 
-                    conectando você a profissionais qualificados para cuidar da sua 
-                    saúde mental e bem-estar emocional.
-                </p>
-            </div>
+        <div class="loginho">
+    <h1>Cadastro</h1>
 
-            <div class="paginicial">
-                <img src="imagens/pagina_inicial (1).png" alt="Consultório Mente Viva">
-            </div>
+    <form action="cadastro.php" method="POST">
+        <label for="e-mail" class="labi">E-mail/Telefone:</label>
+        <br>
+        <input type="text" id="email" name="usuario" required class="imp">
+
+        <br><br>
+
+        <label for="senha" class="labi">Nome de Usuário:</label>
+        <br>
+        <input type="" id="senha" name="crie um nome de usuário" required class="imp">
+
+        <br><br>
+
+         <label for="senha" class="labi">Senha:</label>
+        <br>
+        <input type="" id="senha" name="crie uma senha" required class="imp">
+
+        <br><br>
+
+        <button type="submit" class="form2">Entrar</button>
+    </form>
+
+    <p>Já tem uma conta? <br>  <a href="login.html">Fazer Login</a></p>
         </div>
-    </main>
+    </main> 
 
-    <footer>
+      <footer>
         <p>
             ATENÇÃO: Este site não oferece tratamento ou aconselhamento imediato para pessoas em crise suicida. Em
             caso de crise, ligue para 188 (CVV) ou

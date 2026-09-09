@@ -1,0 +1,81 @@
+import { useState } from 'react'
+import './App.css'
+import foto from './assets/foto.png';
+import foto1 from './assets/foto1.png';
+import foto2 from './assets/foto2.png';
+import foto3 from './assets/foto1.jpg';
+import foto4 from './assets/foto2.jpg';
+import foto5 from './assets/foto3.jpg';
+
+
+function Main(){
+    return(
+    <>
+    <main>
+        <div className="Quadrado1"> 
+            <div className="Quadrado2">
+        <h1>Nossos Serviços</h1>
+            </div>
+            <div className="Quadrado3" >
+        <img src={foto} alt="cabelo" />
+        <img src={foto1} alt="sobrancelha" />
+        <img src={foto2} alt="unha" />
+            </div>
+        </div>
+
+          <div className="quadrado">
+       <div className="texto">
+       <h1>Cabelos</h1>
+       <p>
+      Corte, escova, coloração, mechas, morena iluminada,
+      hidratação e tratamentos de reconstrução.
+      </p>
+    <button>agendar horário ➜</button>
+    </div>
+
+  <div className="imagem">
+    <img src={foto3} alt="cabelo" width="180px" height="220px" />
+  </div>
+</div>
+         <div className="quadrado">
+       <div className="texto">
+       <h1>Sobrancelhas</h1>
+       <p>
+      Design, henna, lash lifting e extensão.              
+      </p>
+    <button>agendar horário ➜</button>
+    </div>
+
+  <div className="imagem">
+    <img src={foto4} alt="cabelo" width="180px" height="220px" />
+  </div>
+</div>
+
+        <div className="quadrado1">
+             <div className="imagem1">
+    <img src={foto5} alt="unha" width="180px" height="220px" />
+    </div>
+       <div className="texto1">
+       <h1>Unhas</h1>
+       <p>
+      Manicure, pedicure, esmaltação em gel e alongamento.             
+      </p>
+    <button>agendar horário ➜</button>
+    </div>
+        </div>
+
+
+    </main>
+     </>
+    )
+}
+
+function App() {
+    return (
+        <>
+  <Main />
+       </>
+    )
+}
+
+export default App
